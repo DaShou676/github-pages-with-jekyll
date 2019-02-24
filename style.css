@@ -53,12 +53,6 @@ ol, ul {
   background-image: url('ncottle.space/hero2.jpg');
   filter: brightness(70%);
 }
-   /* background-image: url('ncottle.space/hero2.jpg');
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 .hero-inner{
       position: relative;
