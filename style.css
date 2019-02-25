@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	overflow: auto;
 	
 
 }
@@ -39,7 +38,7 @@ ol, ul {
 }
     
 *{
-    text-align: center;
+	text-align: center;
     margin:0 auto;
     text-decoration: none;  
 }/*end reset*/
@@ -70,7 +69,7 @@ ol, ul {
 
 .top_links {
 	 margin: 0px 15px;
-	 width: 100%;
+	 min-width: 300px;
       position: relative;
 }
 
