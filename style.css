@@ -94,12 +94,12 @@ ol, ul {
 	padding-left:20px; 
 	position: absolute;
     color:#FFFFFF;
-    font-size: 50px;
+    font-size: 75px;
     text-shadow: 1px 8px hsla(324, 24%, 4%,.9);
     font-family: 'Parisienne', cursive;
     font-style: italic;
     font-weight: 400;
-	line-height: 80px;
+	line-height: 90px;
 	margin-right: -100px;
 
 }
@@ -111,7 +111,7 @@ border-radius: 50%;
 }
 
 .hero-inner button{
-    margin-right:-190px;
+    margin-right:-205px;
     margin-top: 200px;
     float: right;
     padding: 10px;
