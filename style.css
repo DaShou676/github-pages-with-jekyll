@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow: auto;
+	
 
 }
 ol, ul {
@@ -42,7 +44,9 @@ ol, ul {
     text-decoration: none;  
 }/*end reset*/
 
-
+.hero{
+	min-height: 400px;
+}
 
 .hero::before {
   content: "";
@@ -65,51 +69,57 @@ ol, ul {
 }
 
 .top_links {
+	 margin: 0px 15px;
+	 width: 100%;
       position: relative;
-    padding: 15px 40px;
 }
 
-.top_links img{
+.top_links .weblore{
     float: left;
-    padding-left: 20px; 
 }
 
 .top_links ul{
+   margin-top:10px;
+   margin-right: 50px;
    float: right;
+   position: relative;
 }
 
 .top_links li{
-    margin-right: 1em;
      display: inline;
 }
 
 
 .hero-inner h1{
-    padding-top:1em;
+    padding-top:100px;
+	padding-left:20px; 
+	position: absolute;
     color:#FFFFFF;
-    font-size: 1em;
+    font-size: 50px;
     text-shadow: 1px 8px hsla(324, 24%, 4%,.9);
     font-family: 'Parisienne', cursive;
     font-style: italic;
     font-weight: 400;
+	line-height: 80px;
+	margin-right: -100px;
 
 }
 
 .hero-inner span{
 background-color: hsla(138, 36%, 57%,.6);
-padding:10px 60px 10px 20px;
+padding:10px 20px 10px 10px;
 border-radius: 50%;
 }
 
 .hero-inner button{
-    margin-right:-100px;
-    margin-top: 100px;
+    margin-right:-190px;
+    margin-top: 200px;
     float: right;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-color:#e9ece5;
     text-shadow: 1px 1px #054549;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1.5px;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -119,7 +129,7 @@ border-radius: 50%;
 }
 
 
-.hero-inner li{
+/*.hero-inner li{
    display:inline-block;
    padding: 1.5em 2.6em;
    
@@ -134,27 +144,30 @@ border-radius: 50%;
  
 }
 
-.hero-inner a{
-    color:#F1F0E2;
-    font-size: 2em;
-}
-
 .hero-inner ul{
     position: relative;
 	background-color: hsla(324, 24%, 4%,.4);
     top: calc(100vh - 33em);
     margin: 0 auto;
-    
-    
+       
 }
 
+*/
+
+.hero-inner a{
+    color:#F1F0E2;
+    font-size: 2em;
+}
+
+
+
 .hero{
-    margin-bottom: 24em;
-	overflow-x: hidden; // hide horizontal
+	overflow-x: hidden; 
+	overflow-y: hidden;
 }
 .content{
-    margin-top: 100em;
     margin: 0 auto;
+	overflow-x: hidden;
 }
 
 .container{  
