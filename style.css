@@ -68,8 +68,8 @@ ol, ul {
 }
 
 .top_links {
-	 margin: 0px 15px;
-	 min-width: 300px;
+	 margin: 0px 20px;
+	 min-width: 350px;
       position: relative;
 }
 
@@ -79,7 +79,6 @@ ol, ul {
 
 .top_links ul{
    margin-top:10px;
-   margin-right: 50px;
    float: right;
    position: relative;
 }
@@ -91,16 +90,15 @@ ol, ul {
 
 .hero-inner h1{
     margin-top:80px;
-	padding-left:40px; 
+	margin-left:25vw; 
 	position: absolute;
     color:#FFFFFF;
-    font-size: 65px;
+    font-size: 60px;
     text-shadow: 1px 8px hsla(324, 24%, 4%,.9);
     font-family: 'Parisienne', cursive;
     font-style: italic;
     font-weight: 400;
-	line-height: 90px;
-	margin-right: -100px;
+	line-height: 80px;
 
 }
 
@@ -111,7 +109,7 @@ border-radius: 50%;
 }
 
 .hero-inner button{
-    margin-right:-205px;
+    margin-right:-210px;
     margin-top: 200px;
     float: right;
     padding: 10px;
@@ -165,6 +163,7 @@ border-radius: 50%;
 	overflow-y: hidden;
 }
 .content{
+	margin-top: 100px;
     margin: 0 auto;
 	overflow-x: hidden;
 }
