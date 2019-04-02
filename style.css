@@ -44,7 +44,8 @@ ol, ul {
 }/*end reset*/
 
 .hero{
-	min-height: 400px;
+	height: 100vh;
+	
 }
 
 .hero::before {
@@ -55,6 +56,7 @@ ol, ul {
   height: 100%;
   background-image: url('hero2.jpg');
   filter: brightness(70%);
+  
 }
    /* background-image: url('hero2.jpg');
     height: 100vh;
@@ -81,6 +83,7 @@ ol, ul {
    margin-top:10px;
    float: right;
    position: relative;
+   
 }
 
 .top_links li{
@@ -89,7 +92,7 @@ ol, ul {
 
 
 .hero-inner h1{
-    margin-top:40vh;
+    margin-top:30vh;
 	margin-left:25vw; 
 	position: absolute;
     color:#FFFFFF;
@@ -106,6 +109,7 @@ ol, ul {
 background-color: hsla(138, 36%, 57%,.6);
 padding:10px 20px 10px 10px;
 border-radius: 50%;
+
 }
 
 .hero-inner button{
@@ -123,6 +127,7 @@ border-radius: 50%;
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+	
 }
 
 
@@ -154,6 +159,7 @@ border-radius: 50%;
 .hero-inner a{
     color:#F1F0E2;
     font-size: 2em;
+	
 }
 
 
@@ -161,16 +167,18 @@ border-radius: 50%;
 .hero{
 	overflow-x: hidden; 
 	overflow-y: hidden;
+	
 }
 .content{
 	margin-top: 100px;
     margin: 0 auto;
 	overflow-x: hidden;
-	clear: both;
+	
 }
 
 .container{  
 padding: 20px;
+
 }
 .content .container:nth-child(even){
     background-color: #e9ece5; 
@@ -187,6 +195,7 @@ padding: 20px;
  font-size: 35px;
 padding: 40px;
 text-align: center;
+
 }
 
 .content h4{
@@ -212,6 +221,9 @@ padding: 0px 50px;
     margin-bottom: 30px;
 }
 
+#about p{
+	
+}
 
 
 #portfolioImages img:hover{
