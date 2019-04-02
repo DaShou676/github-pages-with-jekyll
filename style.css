@@ -112,11 +112,10 @@ border-radius: 50%;
 
 }
 
-.hero-inner button{
-    margin-right:-210px;
-    margin-top: 200px;
+#button-download{
+	margin-top: 40vh;
+	margin-right:-50px; 
     float: right;
-    padding: 10px;
     border-radius: 5px;
     background-color:#e9ece5;
     text-shadow: 1px 1px #054549;
@@ -127,6 +126,7 @@ border-radius: 50%;
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+	clear: both;
 	
 }
 
