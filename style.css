@@ -71,7 +71,7 @@ ol, ul {
 
 .top_links {
 	 margin: 0px 20px;
-	 min-width: 350px;
+	 min-width: 250px;
       position: relative;
 }
 
@@ -113,8 +113,6 @@ border-radius: 50%;
 }
 
 #button-download{
-	margin-top: 40vh;
-	margin-right:-50px; 
     float: right;
     border-radius: 5px;
     background-color:#e9ece5;
@@ -126,7 +124,8 @@ border-radius: 50%;
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-	
+	margin: 250px -220px 0px 0px;
+
 }
 
 
@@ -203,6 +202,12 @@ font-size: 20px;
 padding: 30px;
 }
 
+.smHeader {
+	font-size: 30px !important;
+	margin-left:-10px;
+	
+}
+
 
 .content p,#skills li{
  margin: 0 auto;   
@@ -252,6 +257,11 @@ background-color: #6497b1;
 #contact{
     line-height: 10px;
 }
+
+ .smText{
+font-size: 15px !important;
+}
+
 
 #footer{
   color:#444;
