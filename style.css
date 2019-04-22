@@ -112,6 +112,8 @@ border-radius: 50%;
 
 }
 
+
+
 #button-download{
     float: right;
     border-radius: 5px;
@@ -126,7 +128,6 @@ transform: rotate(-90deg);
    margin: 250px -240px 0px 0px;
 
 }
-
 
 /*.hero-inner li{
    display:inline-block;
@@ -187,18 +188,33 @@ padding: 20px;
 }
 
 
-.content h3{
+.header-animation.in-view{
  font-family: 'Gravitas One', cursive;
  font-size: 35px;
 padding: 40px;
 text-align: center;
+ animation: yourAnimation 1s forwards 0s linear;
+}
 
+.header-animation h3{
+	opacity: 0;
 }
 
 .content h4{
 font-family: 'Merriweather', serif;
 font-size: 20px;
 padding: 30px;
+
+}
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateX(-50px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        }
 }
 
 .smHeader {
@@ -222,12 +238,26 @@ padding: 0px 50px;
     height: 200px;
     width: 200px;
     margin-bottom: 30px;
+	clear: both;
 }
 
-#about p{
-	
+.text-animation p{
+	opacity: 0;
 }
 
+ .text-animation.in-view{
+	animation: upContent 1.5s forwards 0.0s ease;
+}
+@keyframes upContent{
+    0%{
+        transform: rotate(0) scale(.3);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) scale(1.0);
+        opacity: 1;
+        }
+}
 
 #portfolioImages img:hover{
     transform: scale(1.05);
